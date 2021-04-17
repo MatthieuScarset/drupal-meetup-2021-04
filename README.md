@@ -31,9 +31,9 @@ This project contains demo materials for [my talk at this Meetup](https://www.me
 - No time to write a blog :(
 - No time to write tests :/
 
-So I publish a few modules: 
-- Not perfect nor bullet-proof
-- But 100% real-world problems solving
+So here I am, presenting a few contrib modules which solve real-world problems you might have.
+
+![Drupal Alchemist](https://matthieuscarset.com/drupal_meetup_alchemist.jpg)
 
 ---
 
