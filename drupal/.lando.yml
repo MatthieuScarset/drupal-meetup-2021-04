@@ -1,0 +1,25 @@
+################
+# Demo website.
+################
+name: drupal-meetup
+recipe: drupal9
+config:
+  webroot: web
+################
+# Copy/paste this in web/sites/default/settings.php
+# and remove hashtags at the beginning of lines... :)
+################
+# $settings['config_sync_directory'] = '../config/sync';
+#
+# $databases['default']['default'] = [
+#   'host'      => getenv('MYSQL_HOSTNAME'),
+#   'database'  => getenv('MYSQL_DATABASE'),
+#   'username'  => getenv('MYSQL_USER'),
+#   'password'  => getenv('MYSQL_PASSWORD'),
+#   'port'      => getenv('MYSQL_PORT'),
+#   'driver'    => 'mysql',
+#   'prefix'    => '',
+#   'collation' => 'utf8mb4_general_ci',
+# ];
+#
+# $settings['hash_salt'] = '1234';
