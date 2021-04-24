@@ -37,7 +37,24 @@ So here I am, presenting a few contrib modules which solve real-world problems y
 
 ---
 
-## Entity Media Usage
+## Demo
+
+### Installation
+
+Install [Lando](https://docs.lando.dev/basics/installation.html) and rock and roll!
+
+```
+git clone https://github.com/MatthieuScarset/drupal-meetup-2021-04.git
+cd drupal-meetup-2021-04/drupal
+lando start
+lando composer install
+lando drush si
+lando drush upwd admin admin
+```
+
+Visit [your site](https://drupal-meetup.lndo.site) :)
+
+### Entity Media Usage
 
 As a content editor, I can upload "medias" in several places:
 - In Nodes with image fields
