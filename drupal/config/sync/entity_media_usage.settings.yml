@@ -1,7 +1,41 @@
 active_on:
-  - node
+  node: node
+  block_content: 0
+  comment: 0
+  contact_message: 0
+  entity_embed_fake_entity: 0
+  file: 0
+  media: 0
+  menu_link_content: 0
+  path_alias: 0
+  taxonomy_term: 0
+  user: 0
+  paragraph: 0
 entity_type_ids:
-  - media
+  comment: comment
+  file: file
+  media: media
+  taxonomy_term: taxonomy_term
+  user: user
+  paragraph: paragraph
+  block_content: 0
+  contact_message: 0
+  entity_embed_fake_entity: 0
+  menu_link_content: 0
+  node: 0
+  path_alias: 0
 media_media_usage_view: media_usage
 _core:
   default_config_hash: zAAEAa-pC-NBZjST9ZyctxiBdUos6xpVkaRRg5B78qY
+langcode: fr
+block_content_media_usage_view: ''
+comment_media_usage_view: ''
+contact_message_media_usage_view: ''
+entity_embed_fake_entity_media_usage_view: ''
+file_media_usage_view: ''
+menu_link_content_media_usage_view: ''
+node_media_usage_view: ''
+path_alias_media_usage_view: ''
+taxonomy_term_media_usage_view: ''
+user_media_usage_view: ''
+paragraph_media_usage_view: ''

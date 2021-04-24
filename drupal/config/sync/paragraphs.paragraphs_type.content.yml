@@ -1,0 +1,10 @@
+uuid: cae6ebdb-85f3-4e85-8d92-35bf01f04a55
+langcode: fr
+status: true
+dependencies: {  }
+id: content
+label: Contenu
+icon_uuid: null
+icon_default: null
+description: 'Custom texts.'
+behavior_plugins: {  }

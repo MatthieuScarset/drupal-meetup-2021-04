@@ -1,0 +1,20 @@
+uuid: 3cf1b708-900f-4db8-b0ac-0e43416b6fbb
+langcode: fr
+status: true
+dependencies:
+  module:
+    - entity_embed
+    - file
+label: Fichier
+id: file
+type_id: entity
+type_settings:
+  entity_type: file
+  bundles: {  }
+  display_plugins: {  }
+  entity_browser: ''
+  entity_browser_settings: {  }
+icon:
+  data: iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV/TSlUqDnYo4hCwOlkQFXHUKhShQqgVWnUwufQLmjQkLS6OgmvBwY/FqoOLs64OroIg+AHi5uak6CIl/i8ptIjx4Lgf7+497t4BQqPMNCswDmh61Uwl4mImuyoGXxFABD0Yhigzy5iTpCQ8x9c9fHy9i/Es73N/jj41ZzHAJxLPMsOsEm8QT29WDc77xGFWlFXic+Ixky5I/Mh1xeU3zgWHBZ4ZNtOpeeIwsVjoYKWDWdHUiKeIo6qmU76QcVnlvMVZK9dY6578haGcvrLMdZpDSGARS5AgQkENJZRRRYxWnRQLKdqPe/gHHb9ELoVcJTByLKACDbLjB/+D391a+ckJNykUB7pebPtjBAjuAs26bX8f23bzBPA/A1d6219pADOfpNfbWvQI6N8GLq7bmrIHXO4AkSdDNmVH8tMU8nng/Yy+KQsM3AK9a25vrX2cPgBp6ip5AxwcAqMFyl73eHd3Z2//nmn19wNwiHKm+nb1QQAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+UEGAklGB4+ih8AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAV0lEQVQ4y2P8////fwYKABMDhQDDgO3btzMwMjLixKtXr6auC1jwSe7bt4/B0dGRzmFAVQOcnJwwAvHu3bt0dMG+ffsY/v//j4KVlZWHUiDSxQDGAc+NAJRKIVGF9fN1AAAAAElFTkSuQmCC
+  uri: 'public://embed_buttons/f.png'
+icon_uuid: null

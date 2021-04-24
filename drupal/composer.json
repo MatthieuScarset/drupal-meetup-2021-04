@@ -21,14 +21,17 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-recommended": "^9.1",
+        "drupal/entity_embed": "^1.1",
         "drupal/entity_media_usage": "^1.0",
         "drupal/menu_manipulator": "^3.0",
+        "drupal/paragraphs": "^1.12",
         "drush/drush": "^10.3",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2"
     },
     "require-dev": {
         "drupal/core-dev": "^9.1",
+        "drupal/devel": "^4.1",
         "zaporylie/composer-drupal-optimizations": "^1.2"
     },
     "conflict": {
@@ -57,6 +60,7 @@
         ],
         "post-install-cmd": [
             "cp assets/.env .env",
+            "cp -R assets/embed_buttons web/sites/default/files",
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
         "post-update-cmd": [
