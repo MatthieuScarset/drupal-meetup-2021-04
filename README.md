@@ -39,12 +39,36 @@ So here I am, presenting a few contrib modules which solve real-world problems y
 
 ## Entity Media Usage
 
-@todo Create dummy Lando site to test the module
+As a content editor, I can upload "medias" in several places:
+- In Nodes with image fields
+- In nested Paragraphs with Media entity_reference fields
+- In CKEditor with entity_embed
+
+I need to "*DO CUSTOM THING*" on medias upon creation, for instance:
+- Add a tag
+- Set custom permissions
+- ...etc
+
+Current flow:
+- User must go back to Admin > Content > Media
+- Find media
+- Edit and save media
+  
+Request:
+- Manage Medias permissions "during" parent Node edition.
+
+Solution:
+- ...
+
+Evolutions:
+- Add bulk operations on `media_usage` View
+- Track source field and source parent to display link in table (@liber_t)
+- ...create [new feature requests here](https://www.drupal.org/project/issues/entity_media_usage?categories=All)
 
 ## Menu Manipulator
 
-@todo Create dummy Lando site to test the module
+@todo ...
 
 ---
 
-Still have questions? VFeel free [to contact me](https://matthieuscarset.com) anytime.
+Still have questions? Feel free [to contact me](https://matthieuscarset.com) anytime.
