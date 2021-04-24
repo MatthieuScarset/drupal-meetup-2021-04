@@ -1,14 +1,14 @@
-uuid: f2a64137-b17d-4613-ac64-9877cb24fef6
-name: 'Drush Site-Install'
+uuid: dee003aa-c335-41aa-80b8-39ca247d0cc1
+name: Demo
 mail: admin@example.com
-slogan: ''
+slogan: 'A beautiful site for testing purpose.'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
-default_langcode: en
+default_langcode: fr
 _core:
   default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

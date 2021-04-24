@@ -57,7 +57,6 @@
         ],
         "post-install-cmd": [
             "cp assets/.env .env",
-            "cp assets/settings.php web/sites/default/settings.php",
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
         "post-update-cmd": [
@@ -68,6 +67,13 @@
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
+            },
+            "file-mapping": {
+                "[web-root]/sites/default/settings.php": {
+                    "mode": "replace",
+                    "path": "assets/settings.php",
+                    "overwrite": false
+                }
             }
         },
         "installer-paths": {

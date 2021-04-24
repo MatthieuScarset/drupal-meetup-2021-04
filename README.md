@@ -47,8 +47,8 @@ Install [Lando](https://docs.lando.dev/basics/installation.html) and rock and ro
 git clone https://github.com/MatthieuScarset/drupal-meetup-2021-04.git
 cd drupal-meetup-2021-04/drupal
 lando start
-lando composer install
-lando drush si
+lando composer install --no-interaction -o
+lando drush si minimal --existing-config
 lando drush upwd admin admin
 ```
 
