@@ -29,6 +29,9 @@ default:
   sticky:
     -
       value: false
+  revision_translation_affected:
+    -
+      value: true
   content_translation_source:
     -
       value: und
@@ -48,7 +51,7 @@ default:
           entity_type: paragraph
           uuid: 06fe9dd8-df72-4f5e-8085-dfd128850b28
           bundle: image
-          default_langcode: es
+          default_langcode: fr
         default:
           status:
             -
@@ -76,7 +79,7 @@ default:
           entity_type: paragraph
           uuid: 37201556-cb84-491d-b5b8-0c15c1cfe1e6
           bundle: media
-          default_langcode: es
+          default_langcode: fr
         default:
           status:
             -
@@ -100,7 +103,7 @@ default:
           entity_type: paragraph
           uuid: 678094d9-b3d0-4a40-a19e-2711f57eb0f7
           bundle: content
-          default_langcode: es
+          default_langcode: fr
         default:
           status:
             -
@@ -138,6 +141,9 @@ translations:
     sticky:
       -
         value: false
+    revision_translation_affected:
+      -
+        value: true
     content_translation_source:
       -
         value: fr

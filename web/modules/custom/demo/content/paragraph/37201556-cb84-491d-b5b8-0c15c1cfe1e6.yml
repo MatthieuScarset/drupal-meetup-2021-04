@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 37201556-cb84-491d-b5b8-0c15c1cfe1e6
+  bundle: media
+  default_langcode: fr
+  depends:
+    321b3c94-1c4e-4399-ba87-6e90ee79b7fb: media
+default:
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619443153
+  behavior_settings:
+    -
+      value: {  }
+  revision_translation_affected:
+    -
+      value: true
+  field_media:
+    -
+      entity: 321b3c94-1c4e-4399-ba87-6e90ee79b7fb

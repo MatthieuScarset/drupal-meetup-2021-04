@@ -16,15 +16,16 @@ default:
       value: main
   link:
     -
-      uri: 'route:<nolink>'
+      uri: 'internal:/'
       title: ''
-      options: {  }
+      options:
+        icon: ''
   external:
     -
       value: false
   rediscover:
     -
-      value: false
+      value: true
   weight:
     -
       value: -48

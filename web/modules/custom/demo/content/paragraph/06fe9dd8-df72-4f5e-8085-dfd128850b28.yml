@@ -1,0 +1,28 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 06fe9dd8-df72-4f5e-8085-dfd128850b28
+  bundle: image
+  default_langcode: fr
+  depends:
+    2a337f9d-7027-47d7-932d-b3ed9303203d: file
+default:
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619443134
+  behavior_settings:
+    -
+      value: {  }
+  revision_translation_affected:
+    -
+      value: true
+  field_image:
+    -
+      entity: 2a337f9d-7027-47d7-932d-b3ed9303203d
+      alt: 'Connecting people'
+      title: 'Marty !'
+      width: 300
+      height: 168

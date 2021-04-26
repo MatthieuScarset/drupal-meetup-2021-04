@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: 130a86d0-39c7-4b06-80ca-a337983c15e0
+  uuid: 93c1a9de-34a0-4c92-87b9-9d286a3a448a
   default_langcode: fr
 default:
   uid:
@@ -12,7 +12,7 @@ default:
       value: dNdBNN3aPL0kiKIXFcrGdL-72nmOMu0yOtBSmHsD0a0.jpg
   uri:
     -
-      value: 'public://oembed_thumbnails/dNdBNN3aPL0kiKIXFcrGdL-72nmOMu0yOtBSmHsD0a0_8_3_0_0_1.jpg'
+      value: 'public://oembed_thumbnails/dNdBNN3aPL0kiKIXFcrGdL-72nmOMu0yOtBSmHsD0a0.jpg'
   filemime:
     -
       value: image/jpeg
@@ -24,4 +24,4 @@ default:
       value: true
   created:
     -
-      value: 1619443917
+      value: 1619455500

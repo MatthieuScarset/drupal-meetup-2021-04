@@ -3,7 +3,7 @@ _meta:
   entity_type: menu_link_content
   uuid: e4f56a78-af71-4399-b2bc-62c3faf42cdf
   bundle: menu_link_content
-  default_langcode: fr
+  default_langcode: en
 default:
   enabled:
     -
@@ -18,7 +18,8 @@ default:
     -
       uri: 'internal:/'
       title: ''
-      options: {  }
+      options:
+        icon: ''
   external:
     -
       value: false
