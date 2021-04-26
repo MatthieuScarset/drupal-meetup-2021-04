@@ -45,7 +45,7 @@ Install [Lando](https://docs.lando.dev/basics/installation.html) and rock and ro
 
 ```
 git clone https://github.com/MatthieuScarset/drupal-meetup-2021-04.git
-cd drupal-meetup-2021-04/drupal
+cd drupal-meetup-2021-04
 lando start
 lando composer install --no-interaction -o
 lando drush si minimal --existing-config -y
@@ -89,8 +89,12 @@ Solution:
 
 Evolutions:
 - Add bulk operations on `media_usage` View
-- Track source field and source parent to display link in table (@liber_t)
-- ...create [new feature requests here](https://www.drupal.org/project/issues/entity_media_usage?categories=All)
+- Track source field and source parent to display link in table [request by @liber_t](https://www.drupal.org/project/entity_media_usage/issues/3210523)
+- Integrate with [Entity Usage](https://www.drupal.org/project/entity_usage)
+- Integrate with [Entity Graph](https://www.drupal.org/project/entity_graph_usage)
+- Rename this module differently - `entity_usage_light` or `entity_relationships` for instance
+
+Feel free to create [new feature requests here](https://www.drupal.org/project/issues/entity_media_usage?categories=All)
 
 ## Menu Manipulator
 
