@@ -22,6 +22,7 @@
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-recommended": "^9.1",
         "drupal/default_content": "^2.0@alpha",
+        "drupal/default_content_extra": "^1.0@beta",
         "drupal/entity_embed": "^1.1",
         "drupal/entity_media_usage": "^1.0",
         "drupal/menu_manipulator": "^3.0",
@@ -71,6 +72,13 @@
             "drush si minimal --existing-config -y",
             "drush upwd admin admin",
             "drush en demo -y"
+        ],
+        "export-content": [
+            "drush default-content:export-references file --folder=modules/custom/demo/content/",
+            "drush default-content:export-references media --folder=modules/custom/demo/content/",
+            "drush default-content:export-references taxonomy_term --folder=modules/custom/demo/content/",
+            "drush default-content:export-references node --folder=modules/custom/demo/content/",
+            "drush default-content:export-references menu_link_content --folder=modules/custom/demo/content/"
         ]
     },
     "extra": {

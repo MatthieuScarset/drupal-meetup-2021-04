@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e001a701ce237b2884bb6164ad527ef",
+    "content-hash": "ce9fc6b07afa7aa6a8b06aba16211852",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1781,6 +1781,63 @@
             "homepage": "https://www.drupal.org/project/default_content",
             "support": {
                 "source": "https://git.drupalcode.org/project/default_content"
+            }
+        },
+        {
+            "name": "drupal/default_content_extra",
+            "version": "1.0.0-beta10",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/default_content_extra.git",
+                "reference": "8.x-1.0-beta10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/default_content_extra-8.x-1.0-beta10.zip",
+                "reference": "8.x-1.0-beta10",
+                "shasum": "53acfb544a8f58b5a9303612724fcc46172d6afd"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "drupal/default_content": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-beta10",
+                    "datestamp": "1603791089",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "badjava",
+                    "homepage": "https://www.drupal.org/user/83372"
+                },
+                {
+                    "name": "dixon_",
+                    "homepage": "https://www.drupal.org/user/239911"
+                },
+                {
+                    "name": "suzymasri",
+                    "homepage": "https://www.drupal.org/user/2428842"
+                },
+                {
+                    "name": "timmillwood",
+                    "homepage": "https://www.drupal.org/user/227849"
+                }
+            ],
+            "description": "Extra experimental functionality to enhance Default Content.",
+            "homepage": "https://www.drupal.org/project/default_content_extra",
+            "support": {
+                "source": "https://git.drupalcode.org/project/default_content_extra"
             }
         },
         {
@@ -11087,7 +11144,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/default_content": 15
+        "drupal/default_content": 15,
+        "drupal/default_content_extra": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
