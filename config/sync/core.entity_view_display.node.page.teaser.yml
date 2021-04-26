@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
     - field.field.node.page.field_authors
-    - field.field.node.page.field_comments
     - field.field.node.page.field_sections
     - node.type.page
   module:
@@ -32,6 +31,5 @@ content:
     region: content
 hidden:
   field_authors: true
-  field_comments: true
   field_sections: true
   langcode: true

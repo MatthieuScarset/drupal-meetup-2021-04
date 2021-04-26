@@ -50,16 +50,7 @@ lando start
 lando composer install --no-interaction -o
 lando drush si minimal --existing-config -y
 lando drush upwd admin admin
-```
-
-Create content for testing purpose:
-``` 
-lando drush en devel_generate -y
-lando drush devel-generate-terms --bundles tags
-lando drush devel-generate-users
-lando drush devel-generate-media
-lando drush devel-generate-content
-lando drush pmu devel devel_generate -y
+lando drush en demo -y
 ```
 
 Visit [your site](https://drupal-meetup.lndo.site) :)

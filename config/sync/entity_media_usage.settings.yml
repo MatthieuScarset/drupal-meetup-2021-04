@@ -12,18 +12,18 @@ active_on:
   user: 0
   paragraph: 0
 entity_type_ids:
-  comment: comment
-  file: file
   media: media
-  taxonomy_term: taxonomy_term
-  user: user
-  paragraph: paragraph
   block_content: 0
+  comment: 0
   contact_message: 0
   entity_embed_fake_entity: 0
+  file: 0
   menu_link_content: 0
   node: 0
   path_alias: 0
+  taxonomy_term: 0
+  user: 0
+  paragraph: 0
 media_media_usage_view: media_usage
 _core:
   default_config_hash: zAAEAa-pC-NBZjST9ZyctxiBdUos6xpVkaRRg5B78qY

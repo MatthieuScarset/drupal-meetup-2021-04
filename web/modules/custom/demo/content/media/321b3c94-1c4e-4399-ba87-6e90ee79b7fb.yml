@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 321b3c94-1c4e-4399-ba87-6e90ee79b7fb
+  bundle: remote_video
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'PEUT-ON FAIRE CUIRE UN OEUF SUR SON PC ?'
+  created:
+    -
+      value: 1619443184
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
+  field_media_oembed_video:
+    -
+      value: 'https://www.youtube.com/watch?v=nI_OG3wMfrk'

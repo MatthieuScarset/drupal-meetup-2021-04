@@ -5,11 +5,9 @@ dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_authors
-    - field.field.node.page.field_comments
     - field.field.node.page.field_sections
     - node.type.page
   module:
-    - comment
     - entity_reference_revisions
     - text
     - user
@@ -23,30 +21,21 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
   field_authors:
-    weight: 103
+    weight: 3
     label: above
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_comments:
-    weight: 104
-    label: above
-    settings:
-      view_mode: default
-      pager_id: 0
-    third_party_settings: {  }
-    type: comment_default
-    region: content
   field_sections:
     type: entity_reference_revisions_entity_view
-    weight: 102
+    weight: 2
     label: above
     settings:
       view_mode: default
@@ -54,7 +43,9 @@ content:
     third_party_settings: {  }
     region: content
   links:
-    weight: 101
+    weight: 1
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   langcode: true

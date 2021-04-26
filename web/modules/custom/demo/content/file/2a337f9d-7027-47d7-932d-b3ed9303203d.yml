@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2a337f9d-7027-47d7-932d-b3ed9303203d
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 68747470733a2f2f6d61747468696575736361727365742e636f6d2f64727570616c5f6d65657475705f616c6368656d6973742e6a7067.jpeg
+  uri:
+    -
+      value: 'public://2021-04/68747470733a2f2f6d61747468696575736361727365742e636f6d2f64727570616c5f6d65657475705f616c6368656d6973742e6a7067.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 8711
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619443137

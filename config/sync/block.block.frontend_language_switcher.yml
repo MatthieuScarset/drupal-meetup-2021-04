@@ -1,13 +1,13 @@
-uuid: 8375575b-d9bc-4a2a-8154-a12c576ce841
+uuid: 92d53e65-ff8c-40b3-a05f-8e3b44378639
 langcode: fr
 status: true
 dependencies:
   module:
     - language
   theme:
-    - seven
-id: seven_language_switcher
-theme: seven
+    - frontend
+id: frontend_language_switcher
+theme: frontend
 region: header
 weight: -4
 provider: null
@@ -16,5 +16,5 @@ settings:
   id: 'language_block:language_interface'
   label: 'Sélecteur de langue'
   provider: language
-  label_display: '0'
+  label_display: visible
 visibility: {  }
