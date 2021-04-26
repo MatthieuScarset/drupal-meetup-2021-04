@@ -1,25 +1,31 @@
-.region-header ul {
+.region-menus ~ * {
+  margin-top: 15px;
+}
+.region-menus,
+.region-menus ul {
   display: flex;
   padding: 0;
   margin: 0;
 }
-.region-header li:not(.menu-item--expanded) {
+.region-menus > * + *,
+.region-menus .menu-item + .menu-item {
+  padding-left: 10px;
+}
+.region-menus li:not(.menu-item--expanded) {
   list-style: none;
 }
-.block-menu .menu {
-  justify-content: space-between;
-}
-.region-header .menu-item--expanded {
+.region-menus .menu-item--expanded {
   margin-left: 15px;
 }
-.region-header a {
+.region-menus a {
   display: block;
   padding: 10px 15px;
   border-radius: 10px;
+  background-color: #fafafa;
 }
-.region-header a:hover,
-.region-header a:active,
-.region-header a:focus {
-  background-color: white;
+.region-menus a:hover,
+.region-menus a:active,
+.region-menus a:focus {
+  background-color: #fafafa;
   text-decoration: underline;
 }

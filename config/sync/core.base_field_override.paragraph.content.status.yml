@@ -1,0 +1,22 @@
+uuid: d7137fc6-9901-4c76-ba78-8c33aac5703c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.content
+id: paragraph.content.status
+field_name: status
+entity_type: paragraph
+bundle: content
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

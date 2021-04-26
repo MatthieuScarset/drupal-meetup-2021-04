@@ -10,7 +10,7 @@ dependencies:
     - frontend
 id: frontend_navigationprincipale
 theme: frontend
-region: header
+region: menus
 weight: -3
 provider: null
 plugin: 'system_menu_block:main'
