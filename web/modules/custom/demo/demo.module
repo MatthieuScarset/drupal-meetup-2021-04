@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * @file
+ * Contains functions for demo module.
+ */
+
+/**
+ * Manually set path aliases.
+ */
+function demo_set_path_aliases() {
+  $storage = \Drupal::entityTypeManager()->getStorage('node');
+
+  $mapping = [
+    'Accueil'                    => '/accueil',
+    '403'                        => '/403',
+    '404'                        => '/404',
+    'Page en FR'                 => '/page-fr',
+    'Page in EN'                 => '/page-en',
+    'Pagina in ES'               => '/page-es',
+    'Page langue non specifiee'  => '/page-und',
+    'Page langue non applicable' => '/page-xxx',
+  ];
+
+  foreach ($mapping as $label => $path) {
+    $nodes = $storage->loadByProperties(['title' => $label]);
+    foreach ($nodes as $node) {
+      $node->set('path', $path);
+      $node->save();
+    }
+  }
+}

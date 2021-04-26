@@ -29,9 +29,12 @@ default:
   sticky:
     -
       value: false
-  revision_translation_affected:
+  content_translation_source:
     -
-      value: true
+      value: und
+  content_translation_outdated:
+    -
+      value: false
   body:
     -
       value: "<p>Bienvenue sur ce site de demonstration.&nbsp;</p>\r\n\r\n<p>Il n'y a pas d'accents car j'ai un clavier QWERTY... et franchement c'est complique de repasser sur les textes a chaque fois.</p>\r\n\r\n<p>Merci de votre comprehension&nbsp;!</p>\r\n"
@@ -45,7 +48,7 @@ default:
           entity_type: paragraph
           uuid: 06fe9dd8-df72-4f5e-8085-dfd128850b28
           bundle: image
-          default_langcode: fr
+          default_langcode: es
         default:
           status:
             -
@@ -56,6 +59,9 @@ default:
           behavior_settings:
             -
               value: {  }
+          revision_translation_affected:
+            -
+              value: true
           field_image:
             -
               entity: 2a337f9d-7027-47d7-932d-b3ed9303203d
@@ -70,7 +76,7 @@ default:
           entity_type: paragraph
           uuid: 37201556-cb84-491d-b5b8-0c15c1cfe1e6
           bundle: media
-          default_langcode: fr
+          default_langcode: es
         default:
           status:
             -
@@ -81,6 +87,9 @@ default:
           behavior_settings:
             -
               value: {  }
+          revision_translation_affected:
+            -
+              value: true
           field_media:
             -
               entity: 321b3c94-1c4e-4399-ba87-6e90ee79b7fb
@@ -91,7 +100,7 @@ default:
           entity_type: paragraph
           uuid: 678094d9-b3d0-4a40-a19e-2711f57eb0f7
           bundle: content
-          default_langcode: fr
+          default_langcode: es
         default:
           status:
             -
@@ -102,7 +111,74 @@ default:
           behavior_settings:
             -
               value: {  }
+          revision_translation_affected:
+            -
+              value: true
           field_text:
             -
               value: "<drupal-entity data-align=\"center\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.full\" data-entity-type=\"media\" data-entity-uuid=\"048d997a-952f-401c-a25f-61719909f94a\" data-langcode=\"fr\"></drupal-entity>\r\n\r\n<p>Ma chambre a la forme d'une cage<br />\r\nLe soleil passe son bras par la fenêtre<br />\r\nLes chasseurs à ma porte<br />\r\nComme les petits soldats<br />\r\nQui veulent me prendre</p>\r\n\r\n<blockquote>\r\n<p>Je ne veux pas travailler<br />\r\nJe ne veux pas déjeuner<br />\r\nJe veux seulement l'oublier<br />\r\nEt puis je fume</p>\r\n</blockquote>\r\n\r\n<p>Déjà j'ai connu le parfum de l'amour<br />\r\nUn million de roses n'embaumerait pas autant<br />\r\nMaintenant une seule fleur dans mes entourages<br />\r\nMe rend malade</p>\r\n\r\n<blockquote>\r\n<p>Je ne veux pas travailler<br />\r\nJe ne veux pas déjeuner<br />\r\nJe veux seulement l'oublier<br />\r\nEt puis je fume</p>\r\n</blockquote>\r\n\r\n<p>Je ne suis pas fière de ça<br />\r\nVie qui veut me tuer<br />\r\nC'est magnifique être sympathique<br />\r\nMais je n'le connais jamais</p>\r\n"
               format: full_html
+translations:
+  en:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    title:
+      -
+        value: Home
+    created:
+      -
+        value: 1619455360
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    content_translation_source:
+      -
+        value: fr
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: "<p>Bienvenue sur ce site de demonstration.&nbsp;</p>\r\n\r\n<p>Il n'y a pas d'accents car j'ai un clavier QWERTY... et franchement c'est complique de repasser sur les textes a chaque fois.</p>\r\n\r\n<p>Merci de votre comprehension&nbsp;!</p>\r\n"
+        format: full_html
+        summary: ''
+  es:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    title:
+      -
+        value: Inicio
+    created:
+      -
+        value: 1619455368
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: fr
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: "<p>Bienvenue sur ce site de demonstration.&nbsp;</p>\r\n\r\n<p>Il n'y a pas d'accents car j'ai un clavier QWERTY... et franchement c'est complique de repasser sur les textes a chaque fois.</p>\r\n\r\n<p>Merci de votre comprehension&nbsp;!</p>\r\n"
+        format: full_html
+        summary: ''

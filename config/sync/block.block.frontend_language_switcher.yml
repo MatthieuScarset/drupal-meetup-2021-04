@@ -9,7 +9,7 @@ dependencies:
 id: frontend_language_switcher
 theme: frontend
 region: menus
-weight: -4
+weight: -5
 provider: null
 plugin: 'language_block:language_interface'
 settings:

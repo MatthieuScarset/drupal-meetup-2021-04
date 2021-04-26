@@ -5,8 +5,15 @@ preprocess_menus_language_list:
   main: main
   account: 0
   admin: 0
-  links: 0
   tools: 0
 _core:
   default_config_hash: MRNY3KucIO38iBurvuzGO7D_P02uiJoWsWordkCvm_k
 langcode: fr
+preprocess_menus_icon: 1
+preprocess_menus_icon_list:
+  main: main
+  account: 0
+  admin: 0
+  footer: 0
+  tools: 0
+menu_link_icon_list: "france|France\r\nuk|United Kingdom\r\nspain|Espana\r\nsun|Sunshine"

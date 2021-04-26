@@ -1,25 +1,25 @@
-uuid: 3dc2033b-8cae-4080-8105-09e407d5f5e3
+uuid: e7bc1669-f334-4155-9abe-48b61bcf8a75
 langcode: fr
 status: true
 dependencies:
   config:
-    - system.menu.main
+    - system.menu.account
   module:
     - system
   theme:
     - frontend
-id: frontend_navigationprincipale
+id: frontend_menu_user
 theme: frontend
 region: menus
-weight: -4
+weight: -3
 provider: null
-plugin: 'system_menu_block:main'
+plugin: 'system_menu_block:account'
 settings:
-  id: 'system_menu_block:main'
-  label: 'Navigation principale'
+  id: 'system_menu_block:account'
+  label: Compte
   provider: system
   label_display: visible
   level: 1
   depth: 0
-  expand_all_items: true
+  expand_all_items: false
 visibility: {  }

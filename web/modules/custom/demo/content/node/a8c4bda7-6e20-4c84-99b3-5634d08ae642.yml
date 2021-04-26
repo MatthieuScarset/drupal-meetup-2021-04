@@ -26,6 +26,15 @@ default:
   sticky:
     -
       value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
   body:
     -
       value: "<div style=\"width:100%;height:0;padding-bottom:69%;position:relative;\"><iframe allowfullscreen=\"\" class=\"giphy-embed\" frameborder=\"0\" height=\"100%\" src=\"https://giphy.com/embed/7pHTiZYbAoq40\" style=\"position:absolute\" width=\"100%\"></iframe></div>\r\n\r\n<p><a href=\"https://giphy.com/gifs/inception-7pHTiZYbAoq40\">via GIPHY</a></p>\r\n"

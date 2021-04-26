@@ -71,7 +71,8 @@
         "site-install": [
             "drush si minimal --existing-config -y",
             "drush upwd admin admin",
-            "drush en demo -y"
+            "drush en demo -y",
+            "drush eval 'demo_set_path_aliases()'"
         ],
         "export-content": [
             "drush default-content:export-references file --folder=modules/custom/demo/content/",
