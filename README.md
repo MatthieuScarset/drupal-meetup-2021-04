@@ -11,12 +11,12 @@ git clone https://github.com/MatthieuScarset/drupal-meetup-2021-04.git
 cd drupal-meetup-2021-04
 lando start
 lando composer install --no-interaction -o
-lando drush si minimal --existing-config -y
-lando drush upwd admin admin
-lando drush en demo -y
+lando composer site-install
 ```
 
-Visit [your site](https://drupal-meetup.lndo.site) :)
+Visit [your site](https://drupal-meetup.lndo.site).
+
+Log in at `/user/login` with `admin` / `admin`.
 
 
 ---

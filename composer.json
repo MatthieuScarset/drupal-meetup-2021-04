@@ -66,6 +66,11 @@
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "site-install": [
+            "drush si minimal --existing-config -y",
+            "drush upwd admin admin",
+            "drush en demo -y"
         ]
     },
     "extra": {
