@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e560af58-8878-4178-9e26-134c99bc2f2e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 689px-Voynich_Manuscript_(107).jpg
+  uri:
+    -
+      value: 'public://inline-images/689px-Voynich_Manuscript_(107).jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 182122
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619533737

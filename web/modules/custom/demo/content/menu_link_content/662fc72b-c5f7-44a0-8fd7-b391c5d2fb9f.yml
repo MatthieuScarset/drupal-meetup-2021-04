@@ -19,7 +19,7 @@ default:
       uri: 'https://www.instagram.com/google/'
       title: ''
       options:
-        icon: ''
+        icon: instagram
   external:
     -
       value: false

@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c99c7e49-9e07-4a5b-9a26-d7d3675365dc
+  bundle: image
+  default_langcode: fr
+  depends:
+    b922b5c8-5e5a-462e-b7c4-8b4079a63529: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg
+  created:
+    -
+      value: 1619533593
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_media_image:
+    -
+      entity: b922b5c8-5e5a-462e-b7c4-8b4079a63529
+      alt: Landscape
+      title: ''
+      width: 2560
+      height: 1440

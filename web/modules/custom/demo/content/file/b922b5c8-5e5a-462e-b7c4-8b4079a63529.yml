@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b922b5c8-5e5a-462e-b7c4-8b4079a63529
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg
+  uri:
+    -
+      value: 'public://2021-04/andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 959824
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619533613

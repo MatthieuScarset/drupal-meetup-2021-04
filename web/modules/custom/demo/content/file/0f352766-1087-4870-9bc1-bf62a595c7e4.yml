@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0f352766-1087-4870-9bc1-bf62a595c7e4
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: audio.png
+  uri:
+    -
+      value: 'public://media-icons/generic/audio.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 5294
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619533965

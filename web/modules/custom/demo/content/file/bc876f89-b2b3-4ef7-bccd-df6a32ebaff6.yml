@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bc876f89-b2b3-4ef7-bccd-df6a32ebaff6
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: shakespeare.mp3
+  uri:
+    -
+      value: 'public://2021-04/shakespeare.mp3'
+  filemime:
+    -
+      value: audio/mpeg
+  filesize:
+    -
+      value: 7882011
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619533962

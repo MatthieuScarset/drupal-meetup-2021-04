@@ -4,9 +4,6 @@ _meta:
   uuid: 60d1169b-225a-4b68-957a-a1dd0b5d82b0
   bundle: page
   default_langcode: fr
-  depends:
-    b7ea90f7-4af1-410e-91a5-0f897df2c727: media
-    4be3b2ab-020b-443b-a4ad-83925d843d0e: media
 default:
   revision_uid:
     -
@@ -62,38 +59,9 @@ default:
           behavior_settings:
             -
               value: {  }
-          revision_translation_affected:
-            -
-              value: true
           field_menu:
             -
               target_id: blockchain
-    -
-      entity:
-        _meta:
-          version: '1.0'
-          entity_type: paragraph
-          uuid: 37201556-cb84-491d-b5b8-0c15c1cfe1e6
-          bundle: media
-          default_langcode: fr
-        default:
-          status:
-            -
-              value: true
-          created:
-            -
-              value: 1619443153
-          behavior_settings:
-            -
-              value: {  }
-          revision_translation_affected:
-            -
-              value: true
-          field_media:
-            -
-              entity: b7ea90f7-4af1-410e-91a5-0f897df2c727
-            -
-              entity: 4be3b2ab-020b-443b-a4ad-83925d843d0e
 translations:
   en:
     status:

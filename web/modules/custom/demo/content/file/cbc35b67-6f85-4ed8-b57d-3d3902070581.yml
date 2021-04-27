@@ -12,7 +12,7 @@ default:
       value: liEITanFFJnBcKjYVRMfVBUZ0YjqYryJk6N6lmUVqCI.jpg
   uri:
     -
-      value: 'public://oembed_thumbnails/liEITanFFJnBcKjYVRMfVBUZ0YjqYryJk6N6lmUVqCI_0.jpg'
+      value: 'public://oembed_thumbnails/liEITanFFJnBcKjYVRMfVBUZ0YjqYryJk6N6lmUVqCI_0_0.jpg'
   filemime:
     -
       value: image/jpeg
