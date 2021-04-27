@@ -3,17 +3,25 @@ preprocess_menus_language: 1
 preprocess_menus_language_list:
   footer: footer
   main: main
+  social: social
   account: 0
   admin: 0
+  blockchain: 0
+  menu-en: 0
+  menu-fr: 0
   tools: 0
 _core:
   default_config_hash: MRNY3KucIO38iBurvuzGO7D_P02uiJoWsWordkCvm_k
 langcode: fr
 preprocess_menus_icon: 1
 preprocess_menus_icon_list:
-  main: main
+  social: social
   account: 0
   admin: 0
+  blockchain: 0
   footer: 0
+  main: 0
+  menu-en: 0
+  menu-fr: 0
   tools: 0
-menu_link_icon_list: "france|France\r\nuk|United Kingdom\r\nspain|Espana\r\nsun|Sunshine"
+menu_link_icon_list: "facebook|Facebook\r\ntwitter|Twitter\r\ninstagram|Instagram"

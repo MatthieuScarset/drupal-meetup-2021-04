@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 89a7e453-4a47-4ea4-b2e5-4354840dd982
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Facebook Google'
+  menu_name:
+    -
+      value: social
+  link:
+    -
+      uri: 'https://www.facebook.com/Google/'
+      title: ''
+      options:
+        icon: facebook
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1619521665

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e5626856-bc46-4770-8c5e-d326fb16274e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 4QbPnsJTe3rCSVnwdOwe-EJcLKGlW2PFTUG7RPYgh-E.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/4QbPnsJTe3rCSVnwdOwe-EJcLKGlW2PFTUG7RPYgh-E.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 82806
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619506570

@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 159d2c02-327a-4428-aefb-fcbde6a40584
+  bundle: remote_video
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Iceland Volcano Eruption — Majestic 4K Drone Footage (no music, only real sounds)'
+  created:
+    -
+      value: 1619504289
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_media_oembed_video:
+    -
+      value: 'https://www.youtube.com/watch?v=95wvk34Pi2Q'

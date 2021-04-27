@@ -1,0 +1,8 @@
+uuid: 08239219-04f1-4210-8539-5d7ae386846e
+langcode: fr
+status: true
+dependencies: {  }
+id: menu-fr
+label: 'Menu France'
+description: 'Tous les liens du sites en francais'
+locked: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 575ca164-fb91-46f9-8aea-3bd8f89e8fcf
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 2ZXirEXnr337pX3mIE316hcJ8wgc2tzkHDXnsCA26_I.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/2ZXirEXnr337pX3mIE316hcJ8wgc2tzkHDXnsCA26_I.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 21392
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619506570

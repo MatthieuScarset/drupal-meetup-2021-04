@@ -1,0 +1,8 @@
+uuid: c1d0f413-4f21-407b-890c-dcdfb67dc18f
+langcode: fr
+status: true
+dependencies: {  }
+id: blockchain
+label: 'Liens vers des trucs interessants'
+description: ''
+locked: false

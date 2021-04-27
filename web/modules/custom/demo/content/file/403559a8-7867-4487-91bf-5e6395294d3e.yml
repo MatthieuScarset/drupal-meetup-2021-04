@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 403559a8-7867-4487-91bf-5e6395294d3e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: n57dvHnJalcxQfBqGldGE4hQOh80SQ5f07zZG9PWBaM.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/n57dvHnJalcxQfBqGldGE4hQOh80SQ5f07zZG9PWBaM.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 34068
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619506570

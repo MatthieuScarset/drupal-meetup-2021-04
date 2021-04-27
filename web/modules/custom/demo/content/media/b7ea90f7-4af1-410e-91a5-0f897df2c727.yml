@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b7ea90f7-4af1-410e-91a5-0f897df2c727
+  bundle: remote_video
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'DEVCON1: Understanding the Ethereum Blockchain Protocol - Vitalik Buterin'
+  created:
+    -
+      value: 1619505859
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_media_oembed_video:
+    -
+      value: 'https://www.youtube.com/watch?v=gjwr-7PgpN8'

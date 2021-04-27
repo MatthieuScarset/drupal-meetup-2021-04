@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4be3b2ab-020b-443b-a4ad-83925d843d0e
+  bundle: remote_video
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'TEDxOjai - Peter Joseph - The Big Question'
+  created:
+    -
+      value: 1619506047
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_media_oembed_video:
+    -
+      value: 'https://www.youtube.com/watch?v=4qKAse8388k&t=338s'

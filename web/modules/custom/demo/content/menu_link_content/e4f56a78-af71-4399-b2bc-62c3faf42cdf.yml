@@ -19,7 +19,7 @@ default:
       uri: 'internal:/'
       title: ''
       options:
-        icon: ''
+        icon: uk
   external:
     -
       value: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ca6425f3-65b6-4cb0-ad97-0c7e2d524ca5
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Qx23GhGYMViqBORJWukDtFHXSeIWQzZxJzRYSWjsogg.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/Qx23GhGYMViqBORJWukDtFHXSeIWQzZxJzRYSWjsogg.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9041
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619506570

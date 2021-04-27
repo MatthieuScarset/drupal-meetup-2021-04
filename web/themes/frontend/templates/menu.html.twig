@@ -1,0 +1,58 @@
+{#
+/**
+ * @file
+ * Custom theme to override a menu display, copied from Seven.
+ */
+#}
+{% import _self as menus %}
+
+{#
+  We call a macro which calls itself to render the full tree.
+  @see https://twig.symfony.com/doc/1.x/tags/macro.html
+#}
+{{ menus.menu_links(items, attributes, 0) }}
+
+{% macro menu_links(items, attributes, menu_level) %}
+  {% import _self as menus %}
+  {% if items %}
+    {% if menu_level == 0 %}
+      <ul{{ attributes.addClass('menu') }}>
+    {% else %}
+      <ul class="menu">
+    {% endif %}
+    {% for item in items %}
+      {%
+        set classes = [
+          'menu-item',
+          item.is_expanded ? 'menu-item--expanded',
+          item.is_collapsed ? 'menu-item--collapsed',
+          item.in_active_trail ? 'menu-item--active-trail',
+        ]
+      %}
+      <li{{ item.attributes.addClass(classes) }}>
+        {% set icon = item.original_link.getOptions().icon %}
+
+        {% set link_text %}
+          {% if icon and file_exists('icons/' ~ icon ~ '.svg') %}
+            {# Embed icon inside link text #}
+            <span class="icon icon--{{ icon }}">
+              {% include '@frontend/icons/' ~ icon ~ '.svg' %}
+            </span>
+            <span class="visually-hidden">{{ item.title }}</span>
+          {% else %}
+            {# No icon? display the text only #}
+            <span class="menu-item-label">{{ item.title|raw }}</span>
+          {% endif %}
+        {% endset %}
+
+        {{ link(link_text, item.url) }}
+
+
+        {% if item.below %}
+          {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 93ad57a5-0924-4bd9-a7a3-e3ba7bd9e941
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: VtaDOrtC4E9riVwxdSeizjodLVDWBk-bImsXPAMLZ-M.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/VtaDOrtC4E9riVwxdSeizjodLVDWBk-bImsXPAMLZ-M.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 6513
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619506570

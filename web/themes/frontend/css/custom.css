@@ -1,5 +1,5 @@
 .region-menus ~ * {
-  margin-top: 15px;
+  margin-top: 1.2rem;
 }
 .region-menus,
 .region-menus ul {
@@ -9,18 +9,18 @@
 }
 .region-menus > * + *,
 .region-menus .menu-item + .menu-item {
-  padding-left: 10px;
+  padding-left: 1rem;
 }
 .region-menus li:not(.menu-item--expanded) {
   list-style: none;
 }
 .region-menus .menu-item--expanded {
-  margin-left: 15px;
+  margin-left: 1.2rem;
 }
 .region-menus a {
   display: block;
-  padding: 10px 15px;
-  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  border-radius: 1rem;
   background-color: #fafafa;
 }
 .region-menus a:hover,
@@ -28,4 +28,46 @@
 .region-menus a:focus {
   background-color: #fafafa;
   text-decoration: underline;
+}
+
+.field--name-field-media > .field__items {
+  display: flex;
+}
+.field--name-field-media > .field__items > .field__item {
+  width: calc(50% - 1.2rem);
+}
+.field--name-field-media > .field__items > .field__item + .field__item {
+  margin-left: 1.2rem;
+}
+.media-oembed-content {
+  height: 25rem;
+  width: 100%;
+}
+
+.menu--social {
+  margin: 2rem 0;
+}
+.menu--social ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.menu--social li {
+  list-style: none;
+}
+.menu--social a {
+  display: block;
+}
+.menu--social .menu-item + .menu-item {
+  padding-left: 1rem;
+}
+.icon {
+  display: block;
+  height: 2rem;
+  width: 2rem;
+}
+svg {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
 }

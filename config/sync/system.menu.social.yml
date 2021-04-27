@@ -1,0 +1,8 @@
+uuid: 3782fc24-9d86-48c3-b49a-566d23aebf19
+langcode: fr
+status: true
+dependencies: {  }
+id: social
+label: Social
+description: 'Liens vers les reseaux sociaux.'
+locked: false

@@ -1,0 +1,8 @@
+uuid: a8e482f1-c45a-4ff6-b51d-28c31fcf91ce
+langcode: fr
+status: true
+dependencies: {  }
+id: menu-en
+label: 'Menu Anglais'
+description: 'Tous les liens du sites en anglais'
+locked: false

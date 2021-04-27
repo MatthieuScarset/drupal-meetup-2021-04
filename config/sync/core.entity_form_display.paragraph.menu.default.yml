@@ -1,0 +1,21 @@
+uuid: a217999d-6f0a-40a5-beb1-bd3a8070f185
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.menu.field_menu
+    - paragraphs.paragraphs_type.menu
+id: paragraph.menu.default
+targetEntityType: paragraph
+bundle: menu
+mode: default
+content:
+  field_menu:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

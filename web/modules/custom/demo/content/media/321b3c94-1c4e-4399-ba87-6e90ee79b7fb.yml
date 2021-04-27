@@ -5,6 +5,9 @@ _meta:
   bundle: remote_video
   default_langcode: fr
 default:
+  revision_user:
+    -
+      target_id: 1
   status:
     -
       value: true
@@ -13,7 +16,7 @@ default:
       target_id: 1
   name:
     -
-      value: 'PEUT-ON FAIRE CUIRE UN OEUF SUR SON PC ?'
+      value: 'Gérard Baste ( Svinkels )  - Trop Gros'
   created:
     -
       value: 1619443184
@@ -32,4 +35,4 @@ default:
       value: false
   field_media_oembed_video:
     -
-      value: 'https://www.youtube.com/watch?v=nI_OG3wMfrk'
+      value: 'https://www.youtube.com/watch?v=4slPJoy6o6E'

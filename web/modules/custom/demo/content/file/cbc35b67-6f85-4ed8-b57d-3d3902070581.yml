@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: cbc35b67-6f85-4ed8-b57d-3d3902070581
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: liEITanFFJnBcKjYVRMfVBUZ0YjqYryJk6N6lmUVqCI.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/liEITanFFJnBcKjYVRMfVBUZ0YjqYryJk6N6lmUVqCI_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 7245
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619502440
