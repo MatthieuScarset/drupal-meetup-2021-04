@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7f43fcc7-91d8-4e35-a507-a20cc85763c3
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 5c68277d3ce41c0ef9f4bd34.png
+  uri:
+    -
+      value: 'public://2021-04/5c68277d3ce41c0ef9f4bd34.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 29488
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619590761

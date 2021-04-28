@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fc49a118-b220-4ada-bf22-9755ac20ad5e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: poulet.jpg
+  uri:
+    -
+      value: 'public://2021-04/poulet.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 31003
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619534429

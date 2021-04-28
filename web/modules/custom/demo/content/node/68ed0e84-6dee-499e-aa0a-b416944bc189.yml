@@ -5,10 +5,15 @@ _meta:
   bundle: page
   default_langcode: fr
   depends:
+    12cca54b-f423-43a4-bc52-3513defa042d: media
+    f5f3b17d-bdc8-45af-9155-c04425f41fd4: file
+    fdd3d013-44eb-4f5f-9c5d-633ad46a9c11: file
+    a21f1bed-9055-46f2-b747-aae3289a0203: file
+    7f43fcc7-91d8-4e35-a507-a20cc85763c3: file
+    b305ba17-fd6f-440f-9174-b84f49a6a73a: media
+    e000af66-4ad7-4244-bca4-952f72213f8a: media
     36529408-3ee8-4131-a211-f77f0583a1ed: media
-    a8759db3-fb74-4a14-98d0-fc2df874f9ee: media
-    321b3c94-1c4e-4399-ba87-6e90ee79b7fb: media
-    048d997a-952f-401c-a25f-61719909f94a: media
+    faa0cbde-0b1b-4970-b3bd-0ad562404a00: media
 default:
   revision_uid:
     -
@@ -24,7 +29,7 @@ default:
       value: 'Une page avec des tonnes de Medias associe....'
   created:
     -
-      value: 1619533384
+      value: 1619534439
   promote:
     -
       value: false
@@ -42,7 +47,7 @@ default:
       value: false
   body:
     -
-      value: "<p>Puis, à la fin, nous saisirons pourquoi tout fut bâti à partir d'un carcan si dur, d'un canon si tyrannisant. Tout naquit d'un souhait fou, d'un souhait nul : assouvir jusqu'au bout la fascination du cri vain, sortir du parcours rassurant du mot trop subit, trop confiant, trop commun, n'offrir au signifiant qu'un goulot, qu'un boyau, qu'un chas, si aminci, si fin, si aigu qu'on y voit aussitôt sa justification.</p>\r\n\r\n<p>Il lui suffit alors d'y approfondir son agonisant frangin pour voir s'accomplir son forfait qui, par surcroît, profita au pays, puisqu'un mois plus tard, tout un chacun s'accordait pour nantir l'intrigant flux qui sourdait du puits d'un fort pouvoir curatif, surtout anticatarrhal, mais s'appliquant aussi à l'albugo, à l'anchilops, aux bubons, aux calculs, aux chalazions, au trismus, au pityriasis, au mal blanc, au prurigo, au mal caduc, au glossanthrax.</p>\r\n\r\n<p>Anton Voyl n'arrivait pas à dormir. Il alluma. Son Jaz marquait minuit vingt. Il poussa un profond soupir, s'assit dans son lit, s'appuyant sur son polochon. Il prit un roman, il l'ouvrit, il lut; mais il n'y saisissait qu'un imbroglio confus, il butait à tout instant sur un mot dont il ignorait la signification.</p>\r\n\r\n<p>Il abandonna son roman sur son lit. Il alla à son lavabo; il mouilla un gant qu'il passa sur son front, sur son cou.</p>\r\n\r\n<drupal-entity data-align=\"center\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.full\" data-entity-type=\"media\" data-entity-uuid=\"33aa52b1-2d37-4a38-a414-93f59e955240\" data-langcode=\"fr\"></drupal-entity>\r\n\r\n<p>Son pouls battait trop fort. Il avait chaud. Il ouvrit son vasistas, scruta la nuit. Il faisait doux. Un bruit indistinct montait du faubourg. Un carillon, plus lourd qu'un glas, plus sourd qu'un tocsin, plus profond qu'un bourdon, non loin, sonna trois coups. Du canal Saint-Martin, un clapotis plaintif signalait un chaland qui passait.</p>\r\n\r\n<p>Sur l'abattant du vasistas, un animal au thorax indigo, à l'aiguillon safran, ni un cafard, ni un charançon, mais plutôt un artison, s'avançait, traînant un brin d'alfa. Il s'approcha, voulant l'aplatir d'un coup vif, mais l'animal prit son vol, disparaissant dans la nuit avant qu'il ait pu l'assaillir.</p>\r\n"
+      value: "<drupal-entity data-align=\"center\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.full\" data-entity-type=\"media\" data-entity-uuid=\"33aa52b1-2d37-4a38-a414-93f59e955240\" data-langcode=\"fr\"></drupal-entity>\r\n\r\n<p>Puis, à la fin, nous saisirons pourquoi tout fut bâti à partir d'un carcan si dur, d'un canon si tyrannisant. Tout naquit d'un souhait fou, d'un souhait nul : assouvir jusqu'au bout la fascination du cri vain, sortir du parcours rassurant du mot trop subit, trop confiant, trop commun, n'offrir au signifiant qu'un goulot, qu'un boyau, qu'un chas, si aminci, si fin, si aigu qu'on y voit aussitôt sa justification.</p>\r\n"
       format: full_html
       summary: ''
   field_sections:
@@ -51,7 +56,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 8c8b4cca-d55f-48db-ba80-9b449f28abb3
+          uuid: c9b0a165-c6e2-4dc0-bef9-6ae96e6d6898
           bundle: content
           default_langcode: fr
         default:
@@ -60,13 +65,285 @@ default:
               value: true
           created:
             -
-              value: 1619533556
+              value: 1619590512
           behavior_settings:
             -
               value: {  }
           field_text:
             -
-              value: "<drupal-entity data-align=\"center\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.full\" data-entity-embed-display-settings=\"\" data-entity-type=\"media\" data-entity-uuid=\"c99c7e49-9e07-4a5b-9a26-d7d3675365dc\" data-langcode=\"fr\"></drupal-entity>\r\n\r\n<p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\r\n\r\n<h2>Why do we use it?</h2>\r\n\r\n<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\r\n\r\n<h2>Where does it come from?</h2>\r\n\r\n<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.</p>\r\n\r\n<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>\r\n"
+              value: "<h2>Pourquoi pas mettre des paragraphs dans des paragraphs dans de paragraphs ?</h2>\r\n"
+              format: full_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a07036a1-ea21-40b2-8f70-a8132a5e2873
+          bundle: columns
+          default_langcode: fr
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1619535420
+          behavior_settings:
+            -
+              value: {  }
+          field_paragraphs:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 3a9699e3-fce8-4e1b-9412-8bae23fef288
+                  bundle: media
+                  default_langcode: fr
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1619590531
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_media:
+                    -
+                      entity: 12cca54b-f423-43a4-bc52-3513defa042d
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c6858f59-390a-4209-b85d-fa9848bb6003
+                  bundle: content
+                  default_langcode: fr
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1619590541
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_text:
+                    -
+                      value: "<p>Ce document est vraiment tres interessant.</p>\r\n"
+                      format: full_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9cad954b-eb4e-4801-a0d9-84504425ac06
+          bundle: columns
+          default_langcode: fr
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1619590573
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_paragraphs:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6e7ff869-8bda-41cf-bbef-92258beecf00
+                  bundle: columns
+                  default_langcode: fr
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1619590577
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_paragraphs:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 6681ceda-f320-42ef-b851-913544b0fb6a
+                          bundle: image
+                          default_langcode: fr
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1619590590
+                          behavior_settings:
+                            -
+                              value: {  }
+                          field_image:
+                            -
+                              entity: f5f3b17d-bdc8-45af-9155-c04425f41fd4
+                              alt: Timmy
+                              title: Timmy
+                              width: 472
+                              height: 479
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 8ccafc27-6156-4d22-8b8b-59a948ea95dc
+                          bundle: image
+                          default_langcode: fr
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1619590605
+                          behavior_settings:
+                            -
+                              value: {  }
+                          field_image:
+                            -
+                              entity: fdd3d013-44eb-4f5f-9c5d-633ad46a9c11
+                              alt: Peppa
+                              title: Peppa
+                              width: 350
+                              height: 350
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d23997d8-28f8-4842-adff-7cd66c90f941
+                  bundle: columns
+                  default_langcode: fr
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1619590583
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_paragraphs:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: de7eee77-4eed-4ebd-a7ed-735f213e075d
+                          bundle: image
+                          default_langcode: fr
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1619590646
+                          behavior_settings:
+                            -
+                              value: {  }
+                          field_image:
+                            -
+                              entity: a21f1bed-9055-46f2-b747-aae3289a0203
+                              alt: 'Robo Poli'
+                              title: 'Robo Poli'
+                              width: 348
+                              height: 348
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 5f7cbb61-925e-4f7f-a110-38c4c5bc3492
+                          bundle: image
+                          default_langcode: fr
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1619590757
+                          behavior_settings:
+                            -
+                              value: {  }
+                          field_image:
+                            -
+                              entity: 7f43fcc7-91d8-4e35-a507-a20cc85763c3
+                              alt: Trotro
+                              title: Trotro
+                              width: 400
+                              height: 400
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 11581c60-e5bc-4d84-83eb-ee4ea52af644
+          bundle: content
+          default_langcode: fr
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1619533687
+          behavior_settings:
+            -
+              value: {  }
+          field_text:
+            -
+              value: "<p><img alt=\"voynich\" data-align=\"left\" data-entity-type=\"file\" data-entity-uuid=\"e560af58-8878-4178-9e26-134c99bc2f2e\" height=\"368\" src=\"/sites/default/files/inline-images/689px-Voynich_Manuscript_%28107%29.jpg\" width=\"282\" /></p>\r\n\r\n<p>Le&nbsp;<b>manuscrit de Voynich</b>&nbsp;est un&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Livre_(document)\" title=\"Livre (document)\">livre</a>&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Illustration\" title=\"Illustration\">illustré</a>&nbsp;anonyme rédigé dans une&nbsp;<a href=\"https://fr.wikipedia.org/wiki/%C3%89criture\" title=\"Écriture\">écriture</a>&nbsp;à ce jour non déchiffrée et une&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Langue\" title=\"Langue\">langue</a>&nbsp;non identifiée.</p>\r\n\r\n<p>Malgré les nombreuses tentatives des&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Cryptographe\" title=\"Cryptographe\">cryptographes</a>, la nature exacte de ce document, sa destination et son auteur restent une&nbsp;<a href=\"https://fr.wikipedia.org/wiki/%C3%89nigme_(r%C3%A9flexion)\" title=\"Énigme (réflexion)\">énigme</a>&nbsp;: s'agit-il d'un&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Herbier\" title=\"Herbier\">herbier</a>, d'un traité d'<a href=\"https://fr.wikipedia.org/wiki/Alchimie\" title=\"Alchimie\">alchimie</a>, d'une œuvre ésotérique, voire simplement d'une mystification&nbsp;? Cette ambiguïté a contribué à en faire l'un des documents les plus célèbres de l'<a href=\"https://fr.wikipedia.org/wiki/Histoire_de_la_cryptologie\" title=\"Histoire de la cryptologie\">histoire de la cryptographie</a>.</p>\r\n\r\n<p>Le livre doit son nom à&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Wilfrid_M._Voynich\" title=\"Wilfrid M. Voynich\">Wilfrid M. Voynich</a>, qui l'a découvert en 1912 à&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Frascati\" title=\"Frascati\">Frascati</a>, près de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Rome\" title=\"Rome\">Rome</a>, dans la bibliothèque d'une communauté de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Compagnie_de_J%C3%A9sus\" title=\"Compagnie de Jésus\">jésuites</a>. La plus ancienne mention connue de ce manuscrit date de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/1639\" title=\"1639\">1639</a>&nbsp;et figure dans une lettre adressée à&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Athanasius_Kircher\" title=\"Athanasius Kircher\">Athanasius Kircher</a><sup id=\"cite_ref-Baresch_1-0\"><a href=\"https://fr.wikipedia.org/wiki/Manuscrit_de_Voynich#cite_note-Baresch-1\">a 1</a></sup>. Depuis 1969, le manuscrit est conservé sous la cote&nbsp;MS 408&nbsp;à la&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Biblioth%C3%A8que_Beinecke_de_livres_rares_et_manuscrits\" title=\"Bibliothèque Beinecke de livres rares et manuscrits\">Bibliothèque Beinecke de livres rares et manuscrits</a>&nbsp;de l’<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_Yale\" title=\"Université Yale\">université Yale</a>, aux&nbsp;<a href=\"https://fr.wikipedia.org/wiki/%C3%89tats-Unis\" title=\"États-Unis\">États-Unis</a>.</p>\r\n\r\n<p>Selon une étude publiée en 2011 par l'équipe de Greg Hodgins, chercheur de l'<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_de_l%27Arizona\" title=\"Université de l'Arizona\">Université de l'Arizona</a>, la&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Datation_par_le_carbone_14\" title=\"Datation par le carbone 14\">datation par le&nbsp;carbone 14</a>&nbsp;du&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Parchemin\" title=\"Parchemin\">parchemin</a>&nbsp;utilisé pour la confection du livre a permis d'établir que le&nbsp;<a href=\"https://fr.wikipedia.org/wiki/V%C3%A9lin\" title=\"Vélin\">vélin</a>&nbsp;a été fabriqué entre&nbsp;<a href=\"https://fr.wikipedia.org/wiki/1404\" title=\"1404\">1404</a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/1438\" title=\"1438\">1438</a><sup id=\"cite_ref-ua_2-0\"><a href=\"https://fr.wikipedia.org/wiki/Manuscrit_de_Voynich#cite_note-ua-2\">w 1</a></sup>, ce qui exclut que le texte qu'il porte ait été copié à l'époque de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Roger_Bacon\" title=\"Roger Bacon\">Roger Bacon</a>&nbsp;(† 1294), en qui certains ont vu l'auteur de ce texte.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+              format: full_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 869769a6-83e5-49ee-a140-4a9cb207bd20
+          bundle: content
+          default_langcode: fr
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1619533828
+          behavior_settings:
+            -
+              value: {  }
+          field_text:
+            -
+              value: "<drupal-entity data-align=\"center\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.full\" data-entity-type=\"media\" data-entity-uuid=\"5f4f99e8-c927-4251-900e-7fe29655f965\" data-langcode=\"fr\"></drupal-entity>\r\n\r\n<p><img alt=\"MacBeth\" data-align=\"left\" data-entity-type=\"file\" data-entity-uuid=\"f1e2e34b-e894-4542-a392-9f02ec35efcc\" height=\"293\" src=\"/sites/default/files/inline-images/635px-FirstFolioMacbeth.jpg\" width=\"207\" /></p>\r\n\r\n<p><i><b>Macbeth</b></i>&nbsp;est une&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Trag%C3%A9die\" title=\"Tragédie\">tragédie</a>&nbsp;de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/William_Shakespeare\" title=\"William Shakespeare\">William Shakespeare</a>. Elle prend place dans l'<a href=\"https://fr.wikipedia.org/wiki/Royaume_d%27%C3%89cosse\" title=\"Royaume d'Écosse\">Écosse</a>&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Moyen_%C3%82ge\" title=\"Moyen Âge\">médiévale</a>&nbsp;et retrace de manière très romancée le règne de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Macbeth_(roi_d%27%C3%89cosse)\" title=\"Macbeth (roi d'Écosse)\">Macbeth</a>&nbsp;(1040-1057), en s'inspirant de près du récit qu'en fait&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Raphael_Holinshed\" title=\"Raphael Holinshed\">Raphael Holinshed</a>&nbsp;dans ses&nbsp;<i><a href=\"https://fr.wikipedia.org/wiki/Chroniques_(Holinshed)\" title=\"Chroniques (Holinshed)\">Chroniques</a></i>, parues en 1587. Dévoré d'ambition, le général&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Macbeth_(personnage)\" title=\"Macbeth (personnage)\">Macbeth</a>&nbsp;commet le crime de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/R%C3%A9gicide\" title=\"Régicide\">régicide</a>&nbsp;pour s'emparer du pouvoir, poussé par son épouse&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Lady_Macbeth\" title=\"Lady Macbeth\">Lady Macbeth</a>, mais la culpabilité et la paranoïa les font peu à peu sombrer dans la folie.</p>\r\n\r\n<p>La date de rédaction de&nbsp;<i>Macbeth</i>&nbsp;est inconnue, mais elle pourrait se situer entre 1599 et 1606 si l'on tente de la lire à la lumière des événements contemporains, en particulier l'avènement du roi écossais&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Jacques_VI_et_Ier\" title=\"Jacques VI et Ier\">Jacques VI</a>&nbsp;sur le trône d'Angleterre en 1603 et la&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Conspiration_des_Poudres\" title=\"Conspiration des Poudres\">Conspiration des Poudres</a>&nbsp;en 1605. Elle est publiée pour la première fois dans le&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Premier_Folio\" title=\"Premier Folio\">Premier Folio</a>&nbsp;en 1623.</p>\r\n\r\n<p><i>Macbeth</i>&nbsp;est la plus courte des tragédies de Shakespeare et l'une de ses plus populaires&nbsp;: de nombreux acteurs de renom ont interprété les rôles de Macbeth et Lady Macbeth, et ses adaptations dans d'autres médias sont nombreuses. Une&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Superstition_th%C3%A9%C3%A2trale\" title=\"Superstition théâtrale\">superstition théâtrale</a>&nbsp;veut qu'elle soit maudite et qu'il faille plutôt l'appeler «&nbsp;la pièce écossaise&nbsp;» que prononcer son nom sur scène.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
               format: full_html
     -
       entity:
@@ -88,57 +365,10 @@ default:
               value: {  }
           field_media:
             -
+              entity: b305ba17-fd6f-440f-9174-b84f49a6a73a
+            -
+              entity: e000af66-4ad7-4244-bca4-952f72213f8a
+            -
               entity: 36529408-3ee8-4131-a211-f77f0583a1ed
             -
-              entity: a8759db3-fb74-4a14-98d0-fc2df874f9ee
-            -
-              entity: 321b3c94-1c4e-4399-ba87-6e90ee79b7fb
-            -
-              entity: 048d997a-952f-401c-a25f-61719909f94a
-    -
-      entity:
-        _meta:
-          version: '1.0'
-          entity_type: paragraph
-          uuid: 11581c60-e5bc-4d84-83eb-ee4ea52af644
-          bundle: content
-          default_langcode: fr
-        default:
-          status:
-            -
-              value: true
-          created:
-            -
-              value: 1619533687
-          behavior_settings:
-            -
-              value: {  }
-          field_text:
-            -
-              value: "<p>Le&nbsp;<b>manuscrit de Voynich</b>&nbsp;est un&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Livre_(document)\" title=\"Livre (document)\">livre</a>&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Illustration\" title=\"Illustration\">illustré</a>&nbsp;anonyme rédigé dans une&nbsp;<a href=\"https://fr.wikipedia.org/wiki/%C3%89criture\" title=\"Écriture\">écriture</a>&nbsp;à ce jour non déchiffrée et une&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Langue\" title=\"Langue\">langue</a>&nbsp;non identifiée.</p>\r\n\r\n<p>Malgré les nombreuses tentatives des&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Cryptographe\" title=\"Cryptographe\">cryptographes</a>, la nature exacte de ce document, sa destination et son auteur restent une&nbsp;<a href=\"https://fr.wikipedia.org/wiki/%C3%89nigme_(r%C3%A9flexion)\" title=\"Énigme (réflexion)\">énigme</a>&nbsp;: s'agit-il d'un&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Herbier\" title=\"Herbier\">herbier</a>, d'un traité d'<a href=\"https://fr.wikipedia.org/wiki/Alchimie\" title=\"Alchimie\">alchimie</a>, d'une œuvre ésotérique, voire simplement d'une mystification&nbsp;? Cette ambiguïté a contribué à en faire l'un des documents les plus célèbres de l'<a href=\"https://fr.wikipedia.org/wiki/Histoire_de_la_cryptologie\" title=\"Histoire de la cryptologie\">histoire de la cryptographie</a>.</p>\r\n\r\n<p>Le livre doit son nom à&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Wilfrid_M._Voynich\" title=\"Wilfrid M. Voynich\">Wilfrid M. Voynich</a>, qui l'a découvert en 1912 à&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Frascati\" title=\"Frascati\">Frascati</a>, près de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Rome\" title=\"Rome\">Rome</a>, dans la bibliothèque d'une communauté de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Compagnie_de_J%C3%A9sus\" title=\"Compagnie de Jésus\">jésuites</a>. La plus ancienne mention connue de ce manuscrit date de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/1639\" title=\"1639\">1639</a>&nbsp;et figure dans une lettre adressée à&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Athanasius_Kircher\" title=\"Athanasius Kircher\">Athanasius Kircher</a><sup id=\"cite_ref-Baresch_1-0\"><a href=\"https://fr.wikipedia.org/wiki/Manuscrit_de_Voynich#cite_note-Baresch-1\">a 1</a></sup>. Depuis 1969, le manuscrit est conservé sous la cote&nbsp;MS 408&nbsp;à la&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Biblioth%C3%A8que_Beinecke_de_livres_rares_et_manuscrits\" title=\"Bibliothèque Beinecke de livres rares et manuscrits\">Bibliothèque Beinecke de livres rares et manuscrits</a>&nbsp;de l’<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_Yale\" title=\"Université Yale\">université Yale</a>, aux&nbsp;<a href=\"https://fr.wikipedia.org/wiki/%C3%89tats-Unis\" title=\"États-Unis\">États-Unis</a>.</p>\r\n\r\n<p>Selon une étude publiée en 2011 par l'équipe de Greg Hodgins, chercheur de l'<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_de_l%27Arizona\" title=\"Université de l'Arizona\">Université de l'Arizona</a>, la&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Datation_par_le_carbone_14\" title=\"Datation par le carbone 14\">datation par le&nbsp;carbone 14</a>&nbsp;du&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Parchemin\" title=\"Parchemin\">parchemin</a>&nbsp;utilisé pour la confection du livre a permis d'établir que le&nbsp;<a href=\"https://fr.wikipedia.org/wiki/V%C3%A9lin\" title=\"Vélin\">vélin</a>&nbsp;a été fabriqué entre&nbsp;<a href=\"https://fr.wikipedia.org/wiki/1404\" title=\"1404\">1404</a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/1438\" title=\"1438\">1438</a><sup id=\"cite_ref-ua_2-0\"><a href=\"https://fr.wikipedia.org/wiki/Manuscrit_de_Voynich#cite_note-ua-2\">w 1</a></sup>, ce qui exclut que le texte qu'il porte ait été copié à l'époque de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Roger_Bacon\" title=\"Roger Bacon\">Roger Bacon</a>&nbsp;(† 1294), en qui certains ont vu l'auteur de ce texte.</p>\r\n<img alt=\"voynich\" data-align=\"center\" data-entity-type=\"file\" data-entity-uuid=\"e560af58-8878-4178-9e26-134c99bc2f2e\" src=\"/sites/default/files/inline-images/689px-Voynich_Manuscript_%28107%29.jpg\" />\r\n<p>&nbsp;</p>\r\n"
-              format: full_html
-    -
-      entity:
-        _meta:
-          version: '1.0'
-          entity_type: paragraph
-          uuid: 869769a6-83e5-49ee-a140-4a9cb207bd20
-          bundle: content
-          default_langcode: fr
-        default:
-          status:
-            -
-              value: true
-          created:
-            -
-              value: 1619533828
-          behavior_settings:
-            -
-              value: {  }
-          revision_translation_affected:
-            -
-              value: true
-          field_text:
-            -
-              value: "<drupal-entity data-align=\"center\" data-embed-button=\"media\" data-entity-embed-display=\"view_mode:media.full\" data-entity-type=\"media\" data-entity-uuid=\"5f4f99e8-c927-4251-900e-7fe29655f965\" data-langcode=\"fr\"></drupal-entity>\r\n\r\n<p><i><b>Macbeth</b></i>&nbsp;est une&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Trag%C3%A9die\" title=\"Tragédie\">tragédie</a>&nbsp;de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/William_Shakespeare\" title=\"William Shakespeare\">William Shakespeare</a>. Elle prend place dans l'<a href=\"https://fr.wikipedia.org/wiki/Royaume_d%27%C3%89cosse\" title=\"Royaume d'Écosse\">Écosse</a>&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Moyen_%C3%82ge\" title=\"Moyen Âge\">médiévale</a>&nbsp;et retrace de manière très romancée le règne de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Macbeth_(roi_d%27%C3%89cosse)\" title=\"Macbeth (roi d'Écosse)\">Macbeth</a>&nbsp;(1040-1057), en s'inspirant de près du récit qu'en fait&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Raphael_Holinshed\" title=\"Raphael Holinshed\">Raphael Holinshed</a>&nbsp;dans ses&nbsp;<i><a href=\"https://fr.wikipedia.org/wiki/Chroniques_(Holinshed)\" title=\"Chroniques (Holinshed)\">Chroniques</a></i>, parues en 1587. Dévoré d'ambition, le général&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Macbeth_(personnage)\" title=\"Macbeth (personnage)\">Macbeth</a>&nbsp;commet le crime de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/R%C3%A9gicide\" title=\"Régicide\">régicide</a>&nbsp;pour s'emparer du pouvoir, poussé par son épouse&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Lady_Macbeth\" title=\"Lady Macbeth\">Lady Macbeth</a>, mais la culpabilité et la paranoïa les font peu à peu sombrer dans la folie.</p>\r\n\r\n<p>La date de rédaction de&nbsp;<i>Macbeth</i>&nbsp;est inconnue, mais elle pourrait se situer entre 1599 et 1606 si l'on tente de la lire à la lumière des événements contemporains, en particulier l'avènement du roi écossais&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Jacques_VI_et_Ier\" title=\"Jacques VI et Ier\">Jacques VI</a>&nbsp;sur le trône d'Angleterre en 1603 et la&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Conspiration_des_Poudres\" title=\"Conspiration des Poudres\">Conspiration des Poudres</a>&nbsp;en 1605. Elle est publiée pour la première fois dans le&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Premier_Folio\" title=\"Premier Folio\">Premier Folio</a>&nbsp;en 1623.</p>\r\n\r\n<p><i>Macbeth</i>&nbsp;est la plus courte des tragédies de Shakespeare et l'une de ses plus populaires&nbsp;: de nombreux acteurs de renom ont interprété les rôles de Macbeth et Lady Macbeth, et ses adaptations dans d'autres médias sont nombreuses. Une&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Superstition_th%C3%A9%C3%A2trale\" title=\"Superstition théâtrale\">superstition théâtrale</a>&nbsp;veut qu'elle soit maudite et qu'il faille plutôt l'appeler «&nbsp;la pièce écossaise&nbsp;» que prononcer son nom sur scène.</p>\r\n<img alt=\"MacBeth\" data-align=\"center\" data-entity-type=\"file\" data-entity-uuid=\"f1e2e34b-e894-4542-a392-9f02ec35efcc\" src=\"/sites/default/files/inline-images/635px-FirstFolioMacbeth.jpg\" />\r\n<p>&nbsp;</p>\r\n"
-              format: full_html
+              entity: faa0cbde-0b1b-4970-b3bd-0ad562404a00

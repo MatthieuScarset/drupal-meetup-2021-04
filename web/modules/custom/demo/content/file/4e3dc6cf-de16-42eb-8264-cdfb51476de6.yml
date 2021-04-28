@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4e3dc6cf-de16-42eb-8264-cdfb51476de6
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: BeWmq6Xm78E9C3wthQza9D_XAZwqyHo5-psZmjjIgaE.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/BeWmq6Xm78E9C3wthQza9D_XAZwqyHo5-psZmjjIgaE.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 28962
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619591095

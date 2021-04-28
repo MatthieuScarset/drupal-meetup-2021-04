@@ -27,6 +27,7 @@
         "drupal/entity_media_usage": "^1.0",
         "drupal/menu_manipulator": "^3.0",
         "drupal/paragraphs": "^1.12",
+        "drupal/views_bulk_operations": "^3.12",
         "drush/drush": "^10.3",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2"

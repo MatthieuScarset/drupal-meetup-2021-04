@@ -75,3 +75,7 @@ svg {
 .field--name-field-paragraphs > .field__items {
   display: flex;
 }
+
+.field--name-field-menu .icon {
+  display: inline-block;
+}

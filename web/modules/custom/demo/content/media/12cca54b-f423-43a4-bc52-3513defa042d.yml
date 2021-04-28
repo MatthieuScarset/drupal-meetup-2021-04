@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 12cca54b-f423-43a4-bc52-3513defa042d
+  bundle: document
+  default_langcode: fr
+  depends:
+    22226629-cd20-4354-9779-46efd3fb042b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: dummy.pdf
+  created:
+    -
+      value: 1619535454
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_media_document:
+    -
+      entity: 22226629-cd20-4354-9779-46efd3fb042b
+      display: false
+      description: ''

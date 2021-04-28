@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f5f3b17d-bdc8-45af-9155-c04425f41fd4
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Timmy_render.png
+  uri:
+    -
+      value: 'public://2021-04/Timmy_render.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 211672
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619590594

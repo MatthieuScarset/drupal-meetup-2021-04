@@ -1,0 +1,89 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8e302560-4e98-4f23-ab4e-c73d19b2bf77
+  bundle: page
+  default_langcode: fr
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Page avec un menu'
+  created:
+    -
+      value: 1619591359
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: "<p>Parfois il faut afficher une liste de liens dans une page, par exemple pour afficher une liste&nbsp;de :</p>\r\n\r\n<ul>\r\n\t<li>Contacts qui changent periodiquement</li>\r\n\t<li>Liens favoris qui s'enrichissent avec le temps</li>\r\n\t<li>Adresses email...etc&nbsp;</li>\r\n</ul>\r\n\r\n<p>On peut toujours travailler avec le bloc&nbsp;Menu du <em>system&nbsp;</em>mais va falloir s'amuser a placer un bloc dans Paragraph (ou dans un champs). Pour ca, il faut que le bloc existe - il faut donc le placer dans Admin &gt; Structure dans une region cachee par exemple. Ensuite il faudra certainement gerer le rendu - le Twig + CSS - car il y a certainement des styles predefinis pour les blocks...</p>\r\n\r\n<p>Bref, les blocs c'est bien mais c'est pas pratique pour les mettre dans du contenu.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sections:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4153aa9d-7756-4cc0-ada9-0880db569293
+          bundle: columns
+          default_langcode: fr
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1619591649
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_paragraphs:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 10b64575-4bd6-41cc-8b4f-a0f01f55d367
+                  bundle: menu
+                  default_langcode: fr
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1619594083
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_menu:
+                    -
+                      target_id: contacts

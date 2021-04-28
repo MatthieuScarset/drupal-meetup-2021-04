@@ -1,0 +1,8 @@
+uuid: 97134a42-5152-41e8-bc76-70cd5eea2419
+langcode: fr
+status: true
+dependencies: {  }
+id: contacts
+label: Contacts
+description: ''
+locked: false

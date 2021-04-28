@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a21f1bed-9055-46f2-b747-aae3289a0203
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: png-clipart-transforming-robots-toy-nano-falcon-infrared-helicopter-robot魂-robot-electronics-child-thumbnail.png
+  uri:
+    -
+      value: 'public://2021-04/png-clipart-transforming-robots-toy-nano-falcon-infrared-helicopter-robot魂-robot-electronics-child-thumbnail.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 20131
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619590749

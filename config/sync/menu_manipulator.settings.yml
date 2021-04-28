@@ -7,6 +7,7 @@ preprocess_menus_language_list:
   account: 0
   admin: 0
   blockchain: 0
+  contacts: 0
   menu-en: 0
   menu-fr: 0
   tools: 0
@@ -15,6 +16,7 @@ _core:
 langcode: fr
 preprocess_menus_icon: 1
 preprocess_menus_icon_list:
+  contacts: contacts
   social: social
   account: 0
   admin: 0
@@ -24,4 +26,4 @@ preprocess_menus_icon_list:
   menu-en: 0
   menu-fr: 0
   tools: 0
-menu_link_icon_list: "facebook|Facebook\r\ntwitter|Twitter\r\ninstagram|Instagram\r\n"
+menu_link_icon_list: "facebook|Facebook\r\ntwitter|Twitter\r\ninstagram|Instagram\r\npdg|PDG\r\nvice|Vice president\r\nslave|Stagiaire\r\n"

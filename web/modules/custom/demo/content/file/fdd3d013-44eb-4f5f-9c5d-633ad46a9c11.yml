@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fdd3d013-44eb-4f5f-9c5d-633ad46a9c11
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: peppa_pig_splat-1.png
+  uri:
+    -
+      value: 'public://2021-04/peppa_pig_splat-1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 40550
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619590639

@@ -40,28 +40,6 @@ default:
       value: "<p>Bienvenue sur ce site de demonstration.&nbsp;</p>\r\n\r\n<p>Les contenus ont ete crees automatiquement lors de l'activation du module \"demo\".</p>\r\n\r\n<p>Les liens de menu ont tous ete crees en francais.</p>\r\n\r\n<p>Il faut que <a href=\"/admin/structure/menu/manage/main\">nous changions leur&nbsp;langue</a> pour qu'ils n'apparaissent plus.</p>\r\n\r\n<p>PS: il n'y a pas d'accents dans ce site car j'ai un clavier QWERTY :)</p>\r\n"
       format: full_html
       summary: ''
-  field_sections:
-    -
-      entity:
-        _meta:
-          version: '1.0'
-          entity_type: paragraph
-          uuid: 4dffc9e0-5480-4158-8d8f-5e26be4df04e
-          bundle: menu
-          default_langcode: fr
-        default:
-          status:
-            -
-              value: true
-          created:
-            -
-              value: 1619504533
-          behavior_settings:
-            -
-              value: {  }
-          field_menu:
-            -
-              target_id: blockchain
 translations:
   en:
     status:

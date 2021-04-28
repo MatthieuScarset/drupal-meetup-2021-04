@@ -16,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:social'
 settings:
   id: 'system_menu_block:social'
-  label: 'Reseaux sociaux'
+  label: 'Suivez-nous sur'
   provider: system
   label_display: visible
   level: 1
